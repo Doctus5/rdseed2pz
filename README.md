@@ -1,7 +1,7 @@
 # rdseed2pz
 Code for converting rdseed instrument response format to .pz for ISOLA Matlab GUI use.
 
--- Use & Requirements --:
+-- Use & Requirements --
 
 - Before use, please check you meet the requirements for a success execution of the code. These were the specifictions used to write the code:
 
