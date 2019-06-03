@@ -15,7 +15,7 @@ Code for converting rdseed instrument response format to .pz for ISOLA Matlab GU
 
 - Once you had everything in order, run the code with Python 3 in the terminal:
 
-    "python3 rdseed2pz.py"
+        "python3 rdseed2pz.py"
       
 NOTE: 
 Every rdseed or seed response file has its own data according to the entries. This means that the file register every change to instrumentation by date, its time opeating in that way, and thus, the specifications and values will change according to dates, but the file will save these details with the dates.
