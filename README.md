@@ -28,3 +28,8 @@ The code will ask you for the specific date of an event in order to extract some
 - After input of the date of event, interface will ask you if you want the last line of Complex Zeros in the new .pz files to be removed (one real and one imaginary, the last).
 
 - The output can be found in a directory created by the code called "CAL_OUT", where inside is another directory named with the specification of the event, which finally contains all the .pz response files for ISOLA use. This organization is the output since maybe the user want to continue using the code with another event. In that case, another directory with a name of the new event, aside with the old one, will be found in the same main output directory ("CAL_OUT").
+
+- Another output can be found aside with the "rdseed2pz.py" code which is a text file called "log.txt". These file reports which stations where successfully converted to .pz and which ones not. Do not worry if some of them were not converted, since the event could be prior to the first installation of the station.
+
+EXAMPLE:
+The code in here comes with a "CAL" directory which contains rdseed/seed station response files from the Colombian National Seismological Network by the Colombian Geological Survey (SGC), in order for you to test the code as an example, inspect the code aside with the response files in both formats and compare and see how it works.
