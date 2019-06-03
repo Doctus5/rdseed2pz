@@ -24,6 +24,7 @@ The code will ask you for the specific date of an event in order to extract some
     + Inverse of channel sensitivity.
     + Numbers of Complex Zeros and Complex Poles.
     + Values of Complex Zeros and Complex Poles (two columns each, real and imaginary values).
+    NOTE: For now, the code doesn't differentiate between different units, but it can be re-written for it (ask me). The code only works for Laplace Transfer function type (Rad/Sec) and Response in units in Meters/Sec. Some change on these might affect the values in zeroes and poles.
     
 - After input of the date of event, interface will ask you if you want the last line of Complex Zeros in the new .pz files to be removed (one real and one imaginary, the last).
 
